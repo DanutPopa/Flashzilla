@@ -21,7 +21,7 @@ struct CardView: View {
             RoundedRectangle(cornerRadius: 25)
                 .fill(
                     accessibilityDifferentiateWithoutColor
-                    ? . white
+                    ? .white
                     : .white
                         .opacity(1 - Double(abs(offset.width / 50)))
                 )
